@@ -1,14 +1,16 @@
 public class recursion {
-    public static void name(){
-        int count =1;
-        if(count==5) return; 
+    public static void name(int count){
+        
+        if(count==0) return; 
         System.out.println("pankaj");
-        count +=1;
+        name(count-1);
+       
 
 
     }
     
     public static void main(String[] args) {
         
+        name(5);
     }
 }

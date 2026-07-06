@@ -6,7 +6,7 @@ public class LearnJava {
         while (n > 0) {
             int m = n % 10;
             sum = (sum * 10) + m;
-            n = n / 10;     // ⭐ Missing statement
+            n = n / 10;     // 
         }
 
         System.out.println(sum);
